@@ -1,12 +1,12 @@
 import React from "react";
+import Header from "@/components/Header";
 
-const HomePage = () =>{
-    return (
-        <div>
-        <h1>Welcome to My Next.js App!</h1>
-        <p>This is a simple Next.js application.</p>
-      </div>
-    );
-};
+const app = function () {
+  return (
+    <div className="bg-white">
+      <Header />
+    </div>
+  );
+}
 
-export default HomePage;
+export default app;
