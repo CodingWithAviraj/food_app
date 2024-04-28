@@ -1,24 +1,34 @@
 // components/TopNavigation.js
 import Image from "next/image";
-import brandLogoPizza from '../resource/brandLogoPizza.png';
-import downArrow from '../resource/downArrow.svg';
-import LoginIcon from "./svg_icons/loginIcon";
-import CartIcon from "./svg_icons/cartIcon";
-import SearchIcon from "./svg_icons/searchIcon";
-import MenuIcon from "./svg_icons/menuIcon";
-import LocationIcon from "./svg_icons/locationIcon";
+import brandLogoPizza from "../resource/brandLogoPizza.png";
+import downArrow from "../resource/downArrow.svg";
+import {
+  MenuIcon,
+  SearchIcon,
+  CartIcon,
+  LoginIcon,
+  LocationIcon,
+} from "./utility/SvgIcons";
 
 const header = function () {
   return (
     <div id="header" className="shadow-md">
-      <div className='container mx-auto px-2 flex items-center justify-between'>
-        <div id="left-header" className="flex items-center gap-4 justify-between">
+      <div className="container mx-auto px-2 flex items-center justify-between">
+        <div
+          id="left-header"
+          className="flex items-center gap-4 justify-between"
+        >
           <div id="menu" role="img" tabIndex={-1} className="cursor-pointer">
             <MenuIcon></MenuIcon>
           </div>
           <div id="brand-logo" className="cursor-pointer">
-            <Image quality={60} priority={true} src={brandLogoPizza} alt="Brand Logo" className="h-12 w-12">
-            </Image>
+            <Image
+              quality={60}
+              priority={true}
+              src={brandLogoPizza}
+              alt="Brand Logo"
+              className="h-12 w-12"
+            ></Image>
           </div>
           <div id="delivery-location">
             <div className="flex items-center flex-col h-20 justify-center cursor-pointer">
@@ -27,23 +37,33 @@ const header = function () {
                 <p className="font-light text-xs">Delivering to</p>
               </div>
               <div className="flex items-center gap-1">
-                <p className="font-medium text-sm max-lg:text-ellipsis">Change Address</p>
-                <Image src={downArrow} alt="arrow" className="h-4 w-4">
-                </Image>
+                <p className="font-medium text-sm max-lg:text-ellipsis">
+                  Change Address
+                </p>
+                <Image src={downArrow} alt="arrow" className="h-4 w-4"></Image>
               </div>
             </div>
           </div>
         </div>
-        <div id="right-header" className="flex items-center gap-4 justify-between">
+        <div
+          id="right-header"
+          className="flex items-center gap-4 justify-between"
+        >
           <div id="search" className="flex items-center gap-1 cursor-pointer">
             <SearchIcon></SearchIcon>
             <p className="font-medium text-base max-md::text-ellipsis">
               Search
             </p>
           </div>
-          <div id="login" className="flex items-center gap-1 h-10 cursor-pointer">
+          <div
+            id="login"
+            className="flex items-center gap-1 h-10 cursor-pointer"
+          >
             <LoginIcon></LoginIcon>
-            <p className="font-medium text-base max-md:text-ellipsis"> Login </p>
+            <p className="font-medium text-base max-md:text-ellipsis">
+              {" "}
+              Login{" "}
+            </p>
           </div>
           <div id="cart" className="flex items-center gap-1 cursor-pointer">
             <CartIcon></CartIcon>
@@ -53,6 +73,6 @@ const header = function () {
       </div>
     </div>
   );
-}
+};
 
 export default header;
