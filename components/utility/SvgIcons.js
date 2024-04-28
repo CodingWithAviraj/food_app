@@ -1,3 +1,25 @@
+export const FavouriteIndicator = () => {
+  return (
+    <span role="img" tabIndex="-1">
+      <svg
+        width="16"
+        height="13"
+        viewBox="0 0 16 13"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4.99992 0.666749C2.97492 0.666749 1.33325 2.30842 1.33325 4.33342C1.33325 8.00008 5.66659 11.3334 7.99992 12.1087C10.3333 11.3334 14.6666 8.00008 14.6666 4.33342C14.6666 2.30842 13.0249 0.666749 10.9999 0.666749C9.75992 0.666749 8.66325 1.28242 7.99992 2.22475C7.66181 1.74315 7.21264 1.35011 6.69043 1.07891C6.16822 0.80771 5.58835 0.666333 4.99992 0.666749Z"
+          stroke="#CC0000"
+          strokeWidth="1.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        ></path>
+      </svg>
+    </span>
+  );
+};
+
 export const DietIndicator = () => {
   return (
     <svg
@@ -15,7 +37,7 @@ export const DietIndicator = () => {
         rx="1.7"
         fill="white"
         stroke="#02A651"
-        stroke-width="0.6"
+        strokeWidth="0.6"
       ></rect>
       <ellipse
         cx="6.00059"

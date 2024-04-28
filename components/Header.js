@@ -8,7 +8,7 @@ import {
   CartIcon,
   LoginIcon,
   LocationIcon,
-} from "./helpers/SvgIcons";
+} from "./utility/SvgIcons";
 
 const header = function () {
   return (
