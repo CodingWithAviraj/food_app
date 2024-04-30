@@ -12,7 +12,7 @@ import {
 
 const header = function () {
   return (
-    <div id="header" className="shadow-md">
+    <div id="header" className="shadow-lg">
       <div className="container mx-auto px-2 flex items-center justify-between">
         <div
           id="left-header"
