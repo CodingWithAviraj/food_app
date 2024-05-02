@@ -11,6 +11,9 @@ const app = function () {
       <Header />
       <Card />
       <MenuPanel />
+      <div>
+        <Card></Card>
+      </div>
     </div>
   );
 };
