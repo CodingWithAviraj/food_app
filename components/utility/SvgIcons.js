@@ -153,3 +153,13 @@ export const SearchIcon = function () {
     </svg>
   );
 };
+
+export const RightClickArrow = () => {
+  return (<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 3.525L19.0987 15L7.5 26.475L11.0883 30L26.25 15L11.0883 0L7.5 3.525Z" fill="#151515"></path><mask id="mask0_6406_18326" maskUnits="userSpaceOnUse" x="7" y="0" width="20" height="30" className="luminance-mask"><path d="M7.5 3.525L19.0987 15L7.5 26.475L11.0883 30L26.25 15L11.0883 0L7.5 3.525Z" fill="white"></path></mask><g mask="url(#mask0_6406_18326)"><rect width="30" height="30" transform="matrix(1 0 0 -1 0 30)" fill="#2D2D2D"></rect></g></svg>);
+}
+
+export const LeftClickArrow = () => {
+  return (
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.5 3.525L10.9013 15L22.5 26.475L18.9117 30L3.75 15L18.9117 0L22.5 3.525Z" fill="#151515"></path><mask id="mask0_6406_18334" maskUnits="userSpaceOnUse" x="3" y="0" width="20" height="30" className="luminance-mask"><path d="M22.5 3.525L10.9013 15L22.5 26.475L18.9117 30L3.75 15L18.9117 0L22.5 3.525Z" fill="white"></path></mask><g mask="url(#mask0_6406_18334)"><rect x="30" y="30" width="30" height="30" transform="rotate(-180 30 30)" fill="#2D2D2D"></rect></g></svg>
+  )
+}
