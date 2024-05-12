@@ -4,10 +4,10 @@ import { DietIndicator, FavouriteIndicator } from "./utility/SvgIcons";
 
 const Card = () => {
   return (
-    <div className="bg-white shadow-sm mt-px">
+    <div className=" shadow-sm mt-px">
       <div
         id="card"
-        className="flex justify-between px-5 cursor-pointer border-b border-gray-400 rounded-sm py-12"
+        className="flex justify-between px-5 cursor-pointer border-b border-gray-400 rounded-sm py-8"
       >
         <div id="card_left" className="flex-col">
           <div className="flex justify-start mt-1">
