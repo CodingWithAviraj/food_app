@@ -1,6 +1,6 @@
 import Image from "next/image";
 import PizzaItem from "../resource/pizza_item.jpg";
-import { DietIndicator, FavouriteIndicator } from "./utility/SvgIcons";
+import { DietIndicator, FavouriteIndicator } from "../utility/SvgIcons";
 
 const Card = () => {
   return (
