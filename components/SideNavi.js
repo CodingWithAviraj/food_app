@@ -3,9 +3,9 @@ import { SideNaviMenu, SideNaviCoupons, SideNaviRedirectIcon, SideNaviRightIndic
 const SideNavi = () => {
     return (
         <div id="side_navi">
-            <div className="fixed top-0 w-dvw h-dvh opacity-90 z-[1000] bg-gray-800">
+            <div id="side_bg" className="fixed top-0 w-dvw h-dvh opacity-90 z-30 bg-gray-800">
             </div>
-            <div id="drawer_card" className="fixed top-0 min-w-56 h-dvh max-w-64 z-[1100] bg-white">
+            <div id="drawer_card" className="fixed top-0 min-w-56 h-dvh max-w-64 z-40 bg-white">
                 <div id="nav_drawer" className="flex flex-col">
                     <div id="user_card" className="flex p-4 gap-3 items-center border-b-[1px] border-gray-600 mb-2">
                         <div id="user_image" className="w-12 h-12 bg-red-800 rounded-full flex justify-center items-center">
