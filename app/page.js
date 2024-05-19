@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import MenuPanel from "@/components/MenuPanel";
 import CustomCarousel from "@/components/CustomCarousel";
 import SideNavi from "@/components/SideNavi";
+import Footer from "@/components/Footer";
 
 const app = function () {
   return (
@@ -15,8 +16,7 @@ const app = function () {
           <MenuPanel />
         </div>
         <div className="bg-blue-200">
-          <h1>Footer sections</h1>
-          <p> This is footer</p>
+          <Footer />
         </div>
       </div>
       <SideNavi />
