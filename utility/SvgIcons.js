@@ -155,11 +155,56 @@ export const SearchIcon = function () {
 };
 
 export const RightClickArrow = () => {
-  return (<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 3.525L19.0987 15L7.5 26.475L11.0883 30L26.25 15L11.0883 0L7.5 3.525Z" fill="#151515"></path><mask id="mask0_6406_18326" maskUnits="userSpaceOnUse" x="7" y="0" width="20" height="30" className="luminance-mask"><path d="M7.5 3.525L19.0987 15L7.5 26.475L11.0883 30L26.25 15L11.0883 0L7.5 3.525Z" fill="white"></path></mask><g mask="url(#mask0_6406_18326)"><rect width="30" height="30" transform="matrix(1 0 0 -1 0 30)" fill="#2D2D2D"></rect></g></svg>);
+  return (
+  <svg width="15" height="15" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7.5 3.525L19.0987 15L7.5 26.475L11.0883 30L26.25 15L11.0883 0L7.5 3.525Z" fill="#151515">
+    </path>
+    <mask id="mask0_6406_18326" maskUnits="userSpaceOnUse" x="7" y="0" width="20" height="30" className="luminance-mask">
+        <path d="M7.5 3.525L19.0987 15L7.5 26.475L11.0883 30L26.25 15L11.0883 0L7.5 3.525Z" fill="white">
+        </path>
+    </mask>
+    <g mask="url(#mask0_6406_18326)">
+          <rect width="30" height="30" transform="matrix(1 0 0 -1 0 30)" fill="#2D2D2D"></rect>
+    </g>
+   </svg>);
 }
 
 export const LeftClickArrow = () => {
   return (
-    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.5 3.525L10.9013 15L22.5 26.475L18.9117 30L3.75 15L18.9117 0L22.5 3.525Z" fill="#151515"></path><mask id="mask0_6406_18334" maskUnits="userSpaceOnUse" x="3" y="0" width="20" height="30" className="luminance-mask"><path d="M22.5 3.525L10.9013 15L22.5 26.475L18.9117 30L3.75 15L18.9117 0L22.5 3.525Z" fill="white"></path></mask><g mask="url(#mask0_6406_18334)"><rect x="30" y="30" width="30" height="30" transform="rotate(-180 30 30)" fill="#2D2D2D"></rect></g></svg>
+    <svg width="15" height="15" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M22.5 3.525L10.9013 15L22.5 26.475L18.9117 30L3.75 15L18.9117 0L22.5 3.525Z" fill="#151515"></path>
+      <mask id="mask0_6406_18334" maskUnits="userSpaceOnUse" x="3" y="0" width="20" height="30" className="luminance-mask">
+        <path d="M22.5 3.525L10.9013 15L22.5 26.475L18.9117 30L3.75 15L18.9117 0L22.5 3.525Z" fill="white">
+        </path>
+      </mask>
+      <g mask="url(#mask0_6406_18334)"><rect x="30" y="30" width="30" height="30" transform="rotate(-180 30 30)" fill="#2D2D2D"></rect>
+      </g>
+    </svg>
   )
+}
+
+export const SideNaviRightIndicator = () =>{
+  return (
+    <span role="img" aria-label="right"><svg viewBox="64 64 896 896" focusable="false" data-icon="right" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"></path></svg></span>
+  );
+}
+
+export const SideNaviMenu = () =>{
+  return (
+    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12.5 6.559V7.00644L12.9447 7.05593C17.188 7.52815 20.5 11.1333 20.5 15.5V17H3.5V15.5C3.5 11.1333 6.81197 7.52815 11.0553 7.05593L11.5 7.00644V6.559V5H12.5V6.559ZM4.5 15.5V16H5H19H19.5V15.5C19.5 11.3649 16.1351 8 12 8C7.86486 8 4.5 11.3649 4.5 15.5ZM21.5 19V20H2.5V19H21.5Z" fill="#1A18AF" stroke="#151515">
+      </path>
+    </svg>
+  )
+}
+
+export const SideNaviCoupons = () =>{
+  return(
+    <span role="img" ><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.00729 13.4595L6.5394 12.9916L12.9906 6.54038L13.4585 7.00827L7.00729 13.4595ZM17.0533 10.2266L18.3094 12.6965L15.8067 13.9621L15.5784 14.0775L15.5384 14.3302L15.108 17.0536L12.3598 16.6226L12.1085 16.5832L11.9287 16.763L9.97586 18.7159L8.01274 16.7316L7.83076 16.5477L7.57551 16.59L4.8552 17.041L4.41773 14.2962L4.3777 14.0451L4.15113 13.9295L1.6877 12.6731L2.94463 10.2016L3.06008 9.9746L2.94436 9.74774L1.69555 7.29951L4.17812 6.01933L4.40283 5.90345L4.4427 5.65378L4.87195 2.96569L7.60195 3.41011L7.85614 3.45148L8.03742 3.26857L10.0002 1.28812L11.9451 3.2365L12.1249 3.41667L12.3764 3.37723L15.1247 2.94627L15.5551 5.66965L15.5949 5.92129L15.8218 6.03702L18.3029 7.30231L17.0528 9.77429L16.9383 10.0006L17.0533 10.2266ZM17.1972 8.02983L17.4131 7.59305L16.982 7.36592L15.033 6.33894L14.6583 4.17303L14.5754 3.69371L14.094 3.76343L11.9201 4.07827L10.3465 2.55711L9.99896 2.22118L9.65145 2.55711L8.07783 4.07827L5.90396 3.76343L5.42254 3.69371L5.33961 4.17303L4.96489 6.33894L3.01587 7.36592L2.58483 7.59305L2.80073 8.02983L3.77454 9.99994L2.80073 11.97L2.58483 12.4068L3.01587 12.634L4.96489 13.6609L5.33961 15.8268L5.42254 16.3062L5.90396 16.2364L8.07783 15.9216L9.65145 17.4428L9.99896 17.7787L10.3465 17.4428L11.9201 15.9216L14.094 16.2364L14.5754 16.3062L14.6583 15.8268L15.033 13.6609L16.982 12.634L17.4131 12.4068L17.1972 11.97L16.2234 9.99994L17.1972 8.02983ZM7.91562 6.33327C8.33115 6.33327 8.66562 6.66774 8.66562 7.08327C8.66562 7.49879 8.33115 7.83327 7.91562 7.83327C7.5001 7.83327 7.16562 7.49879 7.16562 7.08327C7.16562 6.66774 7.5001 6.33327 7.91562 6.33327ZM12.0823 12.1666C12.4978 12.1666 12.8323 12.5011 12.8323 12.9166C12.8323 13.3321 12.4978 13.6666 12.0823 13.6666C11.6668 13.6666 11.3323 13.3321 11.3323 12.9166C11.3323 12.5011 11.6668 12.1666 12.0823 12.1666Z" fill="#151515" stroke="#151515"></path></svg></span>
+  );
+}
+export const SideNaviRedirectIcon = () =>{
+  return(
+    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 5H4.5V5.5V19.5V20H5H11.5V21H5C4.17614 21 3.5 20.3239 3.5 19.5V5.5C3.5 4.67614 4.17614 4 5 4H11.5V5H5ZM17 12H17.5V11.5V9.70711L20.2929 12.5L17.5 15.2929V13.5V13H17H9.5V12H17Z" fill="#151515" stroke="#151515"></path></svg>
+  );
 }
