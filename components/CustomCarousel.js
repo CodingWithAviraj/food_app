@@ -10,7 +10,7 @@ const CustomCarousel = () => {
                 autoPlay
                 autoPlaySpeed={1000}
                 centerMode={false}
-                className="max-h-[250px] m-2"
+                className="max-h-[250px] m-2 z-10"
                 containerClass="container"
                 dotListClass=""
                 draggable

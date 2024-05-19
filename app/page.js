@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import MenuPanel from "@/components/MenuPanel";
 import CustomCarousel from "@/components/CustomCarousel";
 import SideNavi from "@/components/SideNavi";
+import LoginPopup from "@/components/LoginPopup";
 
 const app = function () {
   return (
@@ -19,7 +20,8 @@ const app = function () {
           <p> This is footer</p>
         </div>
       </div>
-      <SideNavi />
+      {/* <SideNavi /> */}
+      <LoginPopup></LoginPopup>
     </div>
   );
 };
